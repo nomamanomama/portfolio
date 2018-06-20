@@ -1,15 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Container from "../Container";
 import "./Navbar.css";
+
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Navbar = props => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <Container>
     <Link className="navbar-brand" to="/">
-      Pupster
+      Kathy Kennedy
     </Link>
-    <div>
-      <ul className="navbar-nav">
+    <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i className="fa fa-bars"></i>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarResponsive">
+      <ul className="navbar-nav ml-auto">
         <li
           className={
             window.location.pathname === "/" ||
@@ -18,34 +25,35 @@ const Navbar = props => (
               : "nav-item"
           }
         >
-          <Link to="/" className="nav-link">
+          <Link to="/about" className="nav-link">
             About
           </Link>
         </li>
         <li
           className={
-            window.location.pathname === "/discover"
+            window.location.pathname === "/portfolio"
               ? "nav-item active"
               : "nav-item"
           }
         >
-          <Link to="/discover" className="nav-link">
-            Discover
+          <Link to="/portfolio" className="nav-link">
+            Portfolio
           </Link>
         </li>
         <li
           className={
-            window.location.pathname === "/search"
+            window.location.pathname === "/contact"
               ? "nav-item active"
               : "nav-item"
           }
         >
-          <Link to="/search" className="nav-link">
-            Search
+          <Link to="/contact" className="nav-link">
+            Contact
           </Link>
         </li>
       </ul>
     </div>
+    </Container>
   </nav>
 );
 
