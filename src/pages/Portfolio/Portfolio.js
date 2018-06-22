@@ -4,6 +4,7 @@ import ProjectCard from "../../components/ProjectCard";
 import Container from "../../components/Container";
 //import Jumbotron from "../components/Jumbotron";
 import Footer from "../../components/Footer";
+import projects from "../../projects.json";
 
 class Portfolio extends Component{
 
