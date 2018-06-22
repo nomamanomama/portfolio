@@ -60,7 +60,7 @@ a:hover {
     padding: 200px 0;
     text-align: center;
     color: white;
-    background: url("./images/italy3.jpg") no-repeat bottom center scroll;
+    background: url("./backgrounds/bg-italy3.jpg") no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -123,16 +123,14 @@ a:hover {
 
 .portfolio-section {
     color: white;
-    width:100%;
+    width: 100%;
     height: auto;
-    background: url("./images/italy2.jpg") no-repeat center center scroll;
-    background-color: black;
+    background: linear-gradient(to top left, #66ffff 0%, #0099cc 100%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 
 @media (min-width: 992px) {
     .content-section {
