@@ -1,74 +1,132 @@
 [
+
   {
     "id": 1,
-    "name": "Amber",
-    "image": "https://media.mnn.com/assets/images/2018/03/Alex_Cearns_tiny_dog.JPG.653x0_q80_crop-smart.jpg",
-    "guessed": false
+    "name":"Giphy Search",
+    "image":"./images/project-giphysearch-bw.jpg" ,
+    "image2 ":"./images/project-giphysearch.jpg",  
+    "cardTitle":"Giphy Search",
+    "github":"",
+    "demo":"https://nomamanomama.github.io/GiphySearch/",
+    "about":""
   },
-  {
-    "id": 2,
-    "name": "Lucy",
-    "image": "https://www.romecentral.com/wp-content/uploads/2017/02/Bull-dog_cane_bulldog_Manny-the-franchie.jpg",
-    "guessed": false
+{
+  "id": 2,
+  "name": "Bamazon" ,
+  "image": "./images/project-bamazon-bw.jpg",
+  "image2": "./images/project-bamazon.jpg"  ,
+  "cardTitle":"Bamazon" ,
+  "github":"",
+  "demo":"https://github.com/nomamanomama/bamazon",
+  "about":""
   },
-  {
-    "id": 3,
-    "name": "Princess",
-    "image": "https://static1.squarespace.com/static/52784cdde4b07cdbb003018f/t/56259d40e4b043d43a71cc73/1445305665196/Cavapoo-dog-painting-square-a.jpg?format=500w",
-    "guessed": false
+{
+  "id": 3,
+  "name": "Crosswind" ,
+  "image": "./images/project-crosswind-bw.jpg" ,
+  "image2": "./images/project-crosswind.jpg",
+  "cardTitle":"Crosswind" ,
+  "demo":"https://crosswind.herokuapp.com/",
+  "about":""
   },
-  {
-    "id": 4,
-    "name": "Dexter",
-    "image": "https://ae01.alicdn.com/kf/HTB18F6_kntYBeNjy1Xdq6xXyVXaJ/Diamond-painting-dog-full-square-5d-diy-boston-terrier-diamond-embroidery-3d-pictures-diamond-mosaic-art.jpg",
-    "guessed": false
+{
+  "id": 4,
+  "name": "House of Style" ,
+  "image": "./images/project-hos-bw.jpg" ,
+  "image2" :"./images/project-hos.jpg",
+  "cardTitle":"House of Style" ,
+  "demo":"https://radiant-crag-29134.herokuapp.com/home",
+  "about":""
   },
-  {
-    "id": 5,
-    "name": "Spot",
-    "image": "http://img1.wikia.nocookie.net/__cb20140720144948/dog-with-a-blog-2/images/a/ae/Dog-blog-400_9.jpg",
-    "guessed": false
+{
+  "id": 5,
+  "name": "Project Finder" ,
+  "image": "./images/project-friendfinder-bw.jpg" ,
+  "image2" :"./images/project-friendfinder.jpg" ,
+  "cardTitle":"Project Finder" ,
+  "demo":"https://its-a-Projectfinder.herokuapp.com/",
+  "about":""
   },
-  {
-    "id": 6,
-    "name": "Doug",
-    "image": "https://i.pinimg.com/originals/12/9e/ae/129eae99457411f5e1f6e0405bc9e7cd.jpg",
-    "guessed": false
+{
+  "id": 6,
+  "name": "Eat Da Burger" ,
+  "image": "./images/project-burger-bw.jpg" ,
+  "image2" :"./images/project-burger.jpg",
+  "cardTitle":"Eat Da Burger" ,
+  "demo":"https://nomama-eat-da-burger.herokuapp.com",
+  "about":""
   },
-  {
-    "id": 7,
-    "name": "Bugs",
-    "image": "https://housemydog.com/blog/wp-content/uploads/2017/01/cute-bulldog-smiling-sleeping-dog-narcoleptic-frenchiebutt-millo-2.jpg",
-    "guessed": false
+{
+  "id": 7,
+  "name": "Hangman Game" ,
+  "image": "./images/project-hangman-bw.jpg",
+  "image2" :"./images/project-hangman.jpg" ,
+  "cardTitle":"Hangman Game" ,
+  "demo":"https://nomamanomama.github.io/Hangman-Game/",
+  "about":""
   },
-  {
-    "id": 8,
-    "name": "Boy",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Black_Labrador_Retriever_portrait.jpg",
-    "guessed": false
+{
+  "id": 8,
+  "name": "Clicky Game" ,
+  "image": "./images/project-clicky-bw.jpg" ,
+  "image2" :"./images/project-clicky.jpg" ,
+  "cardTitle":"Clicky Game" ,
+  "demo":"https://nomamanomama.github.io/memorygame/",
+  "about":""
   },
-  {
-    "id": 9,
-    "name": "Spot",
-    "image": "https://secure.img2-fg.wfcdn.com/im/19502386/resize-h800%5Ecompr-r85/3125/31254990/Dalmatian+Puppy+Statue.jpg",
-    "guessed": false
+{
+  "id": 9,
+  "name": "Rock Paper Scissors" ,
+  "image": "./images/project-rps-bw.jpg" ,
+  "image2" :"./images/project-rps.jpg" ,
+  "cardTitle":"Rock Paper Scissors" ,
+  "demo":"https://nomamanomama.github.io/RPS-Firebase",
+  "about":""
   },
-  {
-    "id": 10,
-    "name": "Rocko",
-    "image": "https://www.askideas.com/media/24/Fawn-Shar-Pei-Puppy-Sitting.png",
-    "guessed": false
+{
+  "id": 10,
+  "name": "Liri CLI" ,
+  "image": "./images/project-liri-bw.jpg" ,
+  "image2" :"./images/project-liri.jpg" ,
+  "cardTitle":"Liri CLI" ,
+  "demo":"https://github.com/nomamanomama/liri-node-app",
+  "about":""
   },
-  {
-    "id": 11,
-    "name": "Frizz",
-    "image": "https://catracalivre.com.br/wp-content/uploads/sites/5/2014/10/21214.jpg",
-    "guessed": false
+{
+  "id": 11,
+  "name": "NY Times Scraper" ,
+  "image": "./images/project-nytmern-bw.jpg" ,
+  "image2" :"./images/project-nytmern.jpg" ,
+  "cardTitle":"NY Times Scraper" ,
+  "demo":"https://nomama-nytreact.herokuapp.com/",
+  "about":""
   },
-  {
-    "id": 12,
-    "name": "Fluffy",
-    "image": "https://static.wixstatic.com/media/9c39c5_60eebf1143024cb0b60c92f40de7f94c.jpg/v1/fill/w_394,h_394,al_c,q_80,usm_0.66_1.00_0.01/9c39c5_60eebf1143024cb0b60c92f40de7f94c.webp",
-    "guessed": false
+{
+  "id": 12,
+  "name": "Role-Play Game" ,
+  "image": "./images/project-rpg-bw.jpg",
+  "image2" :"./images/project-rpg.jpg" ,
+  "cardTitle":"Role-Play Game" ,
+  "demo":"https://nomamanomama.github.io/week-4-game/",
+  "about":""
+  },
+{
+  "id": 13,
+  "name": "Ocean Trivia Game" ,
+  "image": "./images/project-oceantrivi-bw.jpg" ,
+  "image2" :"./images/project-oceantrivia.jpg" ,
+  "cardTitle":"Ocean Trivia Game" ,
+  "demo":"https://nomamanomama.github.io/TriviaGame",
+  "about":""
+  },
+{
+  "id": 14,
+  "name": "Project Scraper" ,
+  "image": "./images/project-scraper-bw.jpg" ,
+  "image2" :"./images/project-scraper.jpg" ,
+  "cardTitle":"Project Scraper" ,
+  "demo":"https://mongo-scrappy.herokuapp.com/",
+  "about":""
   }
+
 ]
