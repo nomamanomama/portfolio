@@ -4,9 +4,9 @@
     "id": 1,
     "name":"Giphy Search",
     "image":"./images/project-giphysearch-bw.jpg" ,
-    "image2 ":"./images/project-giphysearch.jpg",  
+    "image2":"./images/project-giphysearch.jpg",  
     "cardTitle":"Giphy Search",
-    "github":"",
+    "github":"https://github.com/nomamanomama/GiphySearch",
     "demo":"https://nomamanomama.github.io/GiphySearch/",
     "about":""
   },
@@ -16,9 +16,9 @@
   "image": "./images/project-bamazon-bw.jpg",
   "image2": "./images/project-bamazon.jpg"  ,
   "cardTitle":"Bamazon" ,
-  "github":"",
+  "github":"https://github.com/nomamanomama/bamazon",
   "demo":"https://github.com/nomamanomama/bamazon",
-  "about":""
+  "about":"online store application built with node.js and MySQL"
   },
 {
   "id": 3,
@@ -26,8 +26,9 @@
   "image": "./images/project-crosswind-bw.jpg" ,
   "image2": "./images/project-crosswind.jpg",
   "cardTitle":"Crosswind" ,
+  "github":"https://github.com/nomamanomama/crosswind",
   "demo":"https://crosswind.herokuapp.com/",
-  "about":""
+  "about":"A coffee shop map board where users can search, pin and leave comments about locations. Find out interesting facts and upcoming events about the search location."
   },
 {
   "id": 4,
@@ -35,17 +36,19 @@
   "image": "./images/project-hos-bw.jpg" ,
   "image2" :"./images/project-hos.jpg",
   "cardTitle":"House of Style" ,
+  "github":"https://github.com/nomamanomama/HouseOfStyle",
   "demo":"https://radiant-crag-29134.herokuapp.com/home",
-  "about":""
+  "about":"A full-stack web site for a hair salon. Customers can learn about the salon and book appointments. Stylists can enter their schedule and services."
   },
 {
   "id": 5,
-  "name": "Project Finder" ,
+  "name": "Friend Finder" ,
   "image": "./images/project-friendfinder-bw.jpg" ,
   "image2" :"./images/project-friendfinder.jpg" ,
-  "cardTitle":"Project Finder" ,
+  "cardTitle":"Friend Finder" ,
+  "github": "https://github.com/nomamanomama/friendfinder",
   "demo":"https://its-a-Projectfinder.herokuapp.com/",
-  "about":""
+  "about":"Friend Finder is a compatibility-based friend matching full-stack web application. "
   },
 {
   "id": 6,
@@ -53,8 +56,9 @@
   "image": "./images/project-burger-bw.jpg" ,
   "image2" :"./images/project-burger.jpg",
   "cardTitle":"Eat Da Burger" ,
+  "github":"https://github.com/nomamanomama/burger",
   "demo":"https://nomama-eat-da-burger.herokuapp.com",
-  "about":""
+  "about":"Eat-da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat."
   },
 {
   "id": 7,
@@ -62,8 +66,9 @@
   "image": "./images/project-hangman-bw.jpg",
   "image2" :"./images/project-hangman.jpg" ,
   "cardTitle":"Hangman Game" ,
+  "github":"https://github.com/nomamanomama/Hangman-Game",
   "demo":"https://nomamanomama.github.io/Hangman-Game/",
-  "about":""
+  "about":"An oldy but a goody, hangman is a movie-themed word guessing game for the web."
   },
 {
   "id": 8,
@@ -71,8 +76,9 @@
   "image": "./images/project-clicky-bw.jpg" ,
   "image2" :"./images/project-clicky.jpg" ,
   "cardTitle":"Clicky Game" ,
+  "github":"https://github.com/nomamanomama/clickygame",
   "demo":"https://nomamanomama.github.io/memorygame/",
-  "about":""
+  "about":"Clicky Game is a dog-themed memory game built with React."
   },
 {
   "id": 9,
@@ -80,8 +86,9 @@
   "image": "./images/project-rps-bw.jpg" ,
   "image2" :"./images/project-rps.jpg" ,
   "cardTitle":"Rock Paper Scissors" ,
+  "github": "https://github.com/nomamanomama/RPS-Firebase",
   "demo":"https://nomamanomama.github.io/RPS-Firebase",
-  "about":""
+  "about":"Rock Paper Scissors multi-player online game with chat messaging."
   },
 {
   "id": 10,
@@ -89,8 +96,9 @@
   "image": "./images/project-liri-bw.jpg" ,
   "image2" :"./images/project-liri.jpg" ,
   "cardTitle":"Liri CLI" ,
-  "demo":"https://github.com/nomamanomama/liri-node-app",
-  "about":""
+  "github": "https://github.com/nomamanomama/liri-node-app",
+  "demo":"https://github.com/nomamanomama/liri-node-app/blob/master/README.md",
+  "about":"language interpretation and recognition interface (liri) is a node.js command line interface application that utilizes Twitter, Spotify and OMDB APIs."
   },
 {
   "id": 11,
@@ -98,8 +106,9 @@
   "image": "./images/project-nytmern-bw.jpg" ,
   "image2" :"./images/project-nytmern.jpg" ,
   "cardTitle":"NY Times Scraper" ,
+  "github": "https://github.com/nomamanomama/nytreact",
   "demo":"https://nomama-nytreact.herokuapp.com/",
-  "about":""
+  "about":"React application that scrapes the NY Times based on search topics and dates from user."
   },
 {
   "id": 12,
@@ -107,17 +116,19 @@
   "image": "./images/project-rpg-bw.jpg",
   "image2" :"./images/project-rpg.jpg" ,
   "cardTitle":"Role-Play Game" ,
+  "github": "https://github.com/nomamanomama/week-4-game",
   "demo":"https://nomamanomama.github.io/week-4-game/",
-  "about":""
+  "about":"Star Wars themed jquery role-play game."
   },
 {
   "id": 13,
   "name": "Ocean Trivia Game" ,
-  "image": "./images/project-oceantrivi-bw.jpg" ,
+  "image": "./images/project-oceantrivia-bw.jpg" ,
   "image2" :"./images/project-oceantrivia.jpg" ,
   "cardTitle":"Ocean Trivia Game" ,
+  "github": "https://github.com/nomamanomama/TriviaGame",
   "demo":"https://nomamanomama.github.io/TriviaGame",
-  "about":""
+  "about":"Timed ocean-themed trivia questions with giphy answer playback."
   },
 {
   "id": 14,
@@ -125,8 +136,9 @@
   "image": "./images/project-scraper-bw.jpg" ,
   "image2" :"./images/project-scraper.jpg" ,
   "cardTitle":"Project Scraper" ,
+  "github": "https://github.com/nomamanomama/mongo-scrape",
   "demo":"https://mongo-scrappy.herokuapp.com/",
-  "about":""
+  "about":"This is web app that lets users view and leave comments on the latest news from scraped New York Times articles."
   }
 
 ]

@@ -32,7 +32,7 @@ nav.navbar.navbar-default {
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-    color: fade(white, 80%);
+    color: fade(rgb(94, 142, 245), 80%);
     outline: none;
     background-color: transparent;
 }
@@ -41,6 +41,7 @@ nav.navbar.navbar-default {
 #mainNav .navbar-nav .nav-item:focus {
     outline: none;
     background-color: transparent;
+    color: #34cafc;
 }
 
 @media (min-width: 992px) {
@@ -54,7 +55,6 @@ nav.navbar.navbar-default {
         border-bottom: none;
         background: transparent;
     }
-      
     #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -66,6 +66,11 @@ nav.navbar.navbar-default {
         background-color: rgba(255, 255, 255, 0.3);
     }
     #mainNav .nav-link.active:hover {
-        color: white;
-    } 
-} 
+        color: fade(rgb(94, 142, 245), 80%);
+    }
+}
+
+.nav-item.active {
+    color: #34cafc;
+    border: 1px solid #34cafc;
+}

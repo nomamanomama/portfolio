@@ -6,7 +6,8 @@ const CardImage = props => (
   >
     <img 
       className="card-image" 
-      src={props.image} alt="color image"
+      src={props.image} 
+      alt={props.name}
       onMouseOver={e => (e.currentTarget.src = props.image2)}
       onMouseOut={e => (e.currentTarget.src = props.image)}
       >

@@ -3,7 +3,7 @@
   height: 30px;
   width: 30px;
   position: absolute;
-  border: solid 1px rgb(255, 255, 255);
+  border: none;
   background-color: transparent;
   bottom: 10%;
   font-size: 14px;
@@ -12,23 +12,7 @@
   outline: none;
 }
 
-.pass {
-  left: 1%;
-  background: #E53935;
-}
 
-.pass::after {
-  content: "\f165";
-}
-
-.pick {
-  right: 1%;
-  background: #43A047;
-}
-
-.pick::after {
-  content: "\f164";
-}
 
 .pick:hover::after, .pass:hover::after {
   animation: iconBounce .57s 1;

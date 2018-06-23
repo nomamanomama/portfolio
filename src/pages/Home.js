@@ -1,17 +1,19 @@
 import React, {Component} from "react";
 import Row from "../components/Row";
-//import Card from "../components/Card";
 import Container from "../components/Container";
-import Jumbotron from "../components/Jumbotron";
-import Footer from "../components/Footer";
 import "../index.css";
 
 class Home extends Component {
   
+  setBackgroundColor = (on) => { 
+    document.getElementById("colorHome").style.opacity = on ? 1 : 0 
+  }
+
+
   render(){
     return (
       <div>
-        <header className="masthead">
+        <header id="homeScreen" className="masthead">
           <div className="intro-body">
             <Container>
               <Row>
@@ -27,7 +29,7 @@ class Home extends Component {
             </Container>
           </div>
         </header>
-        <Footer />
+
       </div>
     );
   };

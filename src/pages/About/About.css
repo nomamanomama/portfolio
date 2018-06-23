@@ -1,0 +1,38 @@
+.jumbotron {
+    background: url("../../backgrounds/bg-creek.jpg") center no-repeat;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 150px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 300px;
+    clear: "both";
+    padding-top: 120;
+    text-align: center;
+    align-content: center;
+}
+
+.jumbotron h2 {
+    color: white;
+    margin-top: -40px;
+}
+
+.jumbotron h2:hover {
+    color: #34cafc;
+}
+
+#aboutPic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 180px;
+    position: relative;
+    top: -50px;
+    opacity: 0;
+    border-radius: 50%;
+    border-color: #34cafc;
+    border-width: 3px; 
+    border-style: solid;
+}
