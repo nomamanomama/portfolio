@@ -36,7 +36,7 @@ const Footer = () => (
 
         </ul>
     </Row>  
-    <span>Kathy Kennedy &copy; Copyright 2018</span>
+    <span id="kkcopyright" >Kathy Kennedy &copy; Copyright 2018</span>
   </footer>
 );
 

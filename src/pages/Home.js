@@ -19,8 +19,7 @@ class Home extends Component {
               <Row>
                 <div className="col-lg-8 mx-auto">
                   <h1 className="brand-heading">Kathy Kennedy</h1>
-                  <p className="intro-text">Welcome! Feel free to read, browse or connect with me.
-                  </p>
+                  <p className="intro-greeting">Welcome!</p> <p className="intro-text">Feel free to read, browse or connect with me.</p>
                   <a href="/about" className="btn btn-circle js-scroll-trigger">
                     <i className="fa fa-angle-double-down animated"></i>
                   </a>
