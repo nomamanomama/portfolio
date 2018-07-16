@@ -139,6 +139,16 @@
   "github": "https://github.com/nomamanomama/mongo-scrape",
   "demo":"https://mongo-scrappy.herokuapp.com/",
   "about":"This is web app that lets users view and leave comments on the latest news from scraped New York Times articles."
+  },
+  {
+    "id": 15,
+    "name": "Stock Market Pets",
+    "image": "./images/project-stock.gif",
+    "image2": "./images/project-stock.gif",
+    "cardTitle": "Stock Market Pets",
+    "github": "https://github.com/lmcneel/stalks",
+    "demo": "https://stage.stockmarketpets.com/",
+    "about": "This game was a collaboration between many developers to teach the basics of trading using fun pet characters."
   }
 
 ]
